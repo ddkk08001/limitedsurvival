@@ -1,0 +1,6 @@
+name: LimitedSurvival
+version: '${project.version}'
+main: limitedsurvival.limitedsurvival.LimitedSurvival
+api-version: 1.18
+commands:
+  limitedsurvival:
