@@ -53,4 +53,13 @@ public final class LimitedSurvival extends JavaPlugin implements Listener, Comma
             p.damage(1000);
         }
     }
+    
+    @EventHandler
+    public void Jump(PlayerJumpEvent a){
+        if(isEnable){
+            Player p = a.getPlayer();
+            p.sendMessage("점프하지 마세요!");
+            p.damage(1000);
+        }
+    }
 }
